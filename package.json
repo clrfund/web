@@ -21,7 +21,7 @@
     "lint:frontend:eslint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
     "test": "buidler test",
     "web": "quasar dev",
-    "deploy": "push-dir --dir=dist/spa-mat --remote=origin --branch=master"
+    "deploy": "push-dir --dir=dist/spa --remote=origin --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
