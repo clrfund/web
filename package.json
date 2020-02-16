@@ -20,7 +20,8 @@
     "lint:frontend:prettier": "prettier --write 'src/**/*.{js,ts}'",
     "lint:frontend:eslint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ./",
     "test": "buidler test",
-    "web": "quasar dev"
+    "web": "quasar dev",
+    "deploy": "push-dir --dir=dist/spa-mat --remote=origin --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -61,6 +62,7 @@
     "ganache-cli": "^6.9.0",
     "npm-check-updates": "^4.0.1",
     "prettier-plugin-solidity": "^1.0.0-alpha.38",
+    "push-dir": "^0.4.1",
     "solhint-plugin-prettier": "^0.0.4",
     "typescript": "^3.7.5",
     "vue-cli-plugin-ethers": "~0.1.4"
