@@ -150,7 +150,7 @@ export default {
   name: "PageIndex",
   data() {
     return {
-      sliders: [20, 20, 20, 20, 20],
+      sliders: [0, 0, 0, 0, 0],
       total: 140
     };
   },
@@ -161,7 +161,7 @@ export default {
       let remainder = 0;
       console.log(diff);
       for (let i in this.sliders) {
-        if (i != n) {
+        if (i != n && this.sliders[i] != 0) {
           //don't modify the slider which is being dragged
           let val = this.sliders[i] - diff / (this.sliders.length - 1);
           if (val < 0) {
