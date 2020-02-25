@@ -2,7 +2,7 @@
   "name": "web",
   "version": "0.0.1",
   "description": "A front end for clr.fund",
-  "productName": "Cl(ea)r.fund Web",
+  "productName": "Cl(ea)r.Fund Web",
   "cordovaId": "fund.clr.app",
   "capacitorId": "",
   "author": "Tommy Cox <tommy.cox@protonmail.com>",

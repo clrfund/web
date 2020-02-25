@@ -1,4 +1,4 @@
-# Cl(ea)r.fund Web (web)
+# Cl(ea)r.Fund Web (web)
 
 A front end for clr.fund
 

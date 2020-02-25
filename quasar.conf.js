@@ -95,9 +95,10 @@ module.exports = function(/*ctx*/) {
       workboxPluginMode: "GenerateSW", // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: "Cl(ea)r.fund Web",
-        short_name: "Cl(ea)r.fund Web",
-        description: "A front end for clr.fund",
+        name: "Cl(ea)r.Fund",
+        short_name: "Cl(ea)r.Fund",
+        description:
+          "An open and less-trustful Quadratic Funding application for Ethereum Public Goods",
         display: "standalone",
         orientation: "portrait",
         background_color: "#ffffff",
